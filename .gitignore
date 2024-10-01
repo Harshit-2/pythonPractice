@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+venv/
+ENV/
+env/
+.venv/
+
+# API keys and environment files
+*.env
+*.env.*
+
+# VS Code settings folder
+.vscode/
+
+# JetBrains IDE settings folder (e.g., PyCharm)
+.idea/
+
+# macOS hidden files
+.DS_Store
+
+# Log files
+*.log
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test results
+htmlcov/
+.tox/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# SQLite databases
+*.sqlite3
+
+# Pytest cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
+
+# Coverage reports
+coverage.xml
+*.coveragerc
+coverage/
+
+# Sphinx documentation
+docs/_build/
+
+# Pyre type checker
+.pyre/
+
+# API keys in JSON or YAML format
+*.secret.json
+*.secret.yaml
+
+# Any other specific files containing API keys
+api_keys.py
+config.py
+
+# System-specific files (optional)
+Thumbs.db
